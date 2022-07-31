@@ -1,0 +1,161 @@
+///*------------------------------------------------------------
+//Anchor position
+//------------------------------------------------------------*/
+//.u-anchor:before {
+//	content:"";
+//	margin-top: -100px;
+//	padding-top: 100px;
+//}
+
+//------------------------------------------------------------
+// margin
+//------------------------------------------------------------
+.u-list1 {
+    margin-left: 1.5%;
+
+    @include bp(1254) {
+        padding-left: 10px;
+        margin-left: 0;
+    }
+   
+    @include sp {
+        margin: 0 auto;
+    }
+}
+
+.u-list2 {
+    @include sp {
+        text-align: right;
+        margin-top: 6px;
+        margin-right: 7px;
+    }
+}
+
+.u-list3 {
+    margin-right: -1.5%;
+
+    @include bp(1254) {
+        margin-right: 0;
+        padding-right: 10px;
+    }
+
+    @include sp {
+        margin: 9px 0 0;
+    }
+}
+
+
+.u-com2 {
+    @include sp {
+        margin-left: auto;
+    }
+}
+
+.u-titlemo {
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: calc(33.6pt / 28pt);
+    letter-spacing: 0.01em;
+
+    @include sp {
+        font-size: 1.4rem;
+        letter-spacing: -0.03em;
+        margin-left: 2px;
+    }
+}
+
+.u-txt01 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+    @include sp {
+        font-size: 1.1rem;
+        line-height: calc(26.4pt / 22pt);
+        margin-bottom: 9px;
+    }
+}
+
+.u-txt02 {
+    font-size: 1.9rem;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    line-height: calc(27pt / 19pt);
+    @include sp {
+        font-size: 0.95rem;
+        line-height: calc(26pt / 19pt);
+        letter-spacing: 0;
+    }
+}
+
+.u-titleplan {
+    padding-bottom: 27px;
+    margin-bottom: 102px;
+    text-align: center;
+    font-size: 4.8rem;
+    font-family: $oswald-font;
+    letter-spacing: 0.06em;
+    font-weight: 100;
+    position: relative;
+    color: #000;
+}
+
+.u-titleplan::before {
+    content: "";
+    background: #c8c5c4;
+    width: 57px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.u-finance {
+    font-size: 4.8rem;
+    margin-bottom: 46px;
+    font-family: $oswald-font;
+    letter-spacing: 0.06em;
+    font-weight: 300;
+    position: relative;
+    color: #000;
+    text-align: center;
+    padding-bottom: 28px;
+    margin-bottom: 57px;
+    letter-spacing: 1px;
+}
+
+.u-finance::before {
+    content: "";
+    background: #c8c5c4;
+    width: 57px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.u-content1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-left: 10px;
+    margin-bottom: 4px;
+}
+
+.u-content2 {
+    font-size: 8.9rem;
+    font-weight: 700;
+    line-height: 1;
+    padding-left: 4px;
+    margin-bottom: 20px;
+    color: #7a89a8;
+}
+
+.u-content3 {
+    font-size: 3.6rem;
+    margin-left: 10px;
+}
+
+//------------------------------------------------------------
+// color
+//------------------------------------------------------------
